@@ -1,0 +1,6 @@
+package BookStoreManager;
+
+public abstract class ALoBooks {
+	protected abstract int count();
+
+}

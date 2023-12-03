@@ -1,0 +1,5 @@
+package BookStoreManager;
+
+public class Book {
+
+}

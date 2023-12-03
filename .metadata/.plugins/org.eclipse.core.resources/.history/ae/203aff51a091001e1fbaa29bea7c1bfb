@@ -1,0 +1,39 @@
+package BookStoreManager;
+
+public class Book {
+	private Author author;
+	private String title;
+	private double price;
+	private int publicatrionYear;
+	public Book(Author author, String title, double price, int publicatrionYear) {
+		this.author = author;
+		this.title = title;
+		this.price = price;
+		this.publicatrionYear = publicatrionYear;
+	}
+	public Author getAuthor() {
+		return author;
+	}
+	public void setAuthor(Author author) {
+		this.author = author;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public int getPublicatrionYear() {
+		return publicatrionYear;
+	}
+	public void setPublicatrionYear(int publicatrionYear) {
+		this.publicatrionYear = publicatrionYear;
+	}
+	
+}

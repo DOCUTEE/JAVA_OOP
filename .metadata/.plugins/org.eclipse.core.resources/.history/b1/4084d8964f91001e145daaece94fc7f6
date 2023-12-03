@@ -1,0 +1,19 @@
+package BookStoreManager;
+
+import junit.framework.TestCase;
+
+public class AuthorTest extends TestCase {
+	public void testConstructor() {
+		String name1 = "Nguyen Minh Quang";
+		int birthYear = 2004;
+		Book book1 = new Book(null,"Book1",20,2004);
+		ALoBooks books = new Cons(book1, new Empty());
+		Author me = new Author(name1,birthYear,books);
+		assertEquals(name1, me.getName());
+		assertEquals(birthYear, me.getBirthYear());
+		assertEquals(1, me.getBooks().count());
+		
+		
+		
+	}
+}
